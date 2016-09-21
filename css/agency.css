@@ -49,6 +49,12 @@ h6 {
 .img-centered {
   margin: 0 auto;
 }
+.img-mediaresponsive {
+  display: block;
+  height: 200px;
+  width: 300px;
+  position: relative;
+}
 .bg-light-gray {
   background-color: #eeeeee;
 }
@@ -179,7 +185,7 @@ fieldset[disabled] .btn-xl.active {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 1px;
   color: white;
 }
@@ -208,7 +214,7 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-custom .navbar-brand {
-    font-size: 3em;
+    font-size: 2em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -229,7 +235,7 @@ fieldset[disabled] .btn-xl.active {
 header {
   background-image: url('../img_1.jpg');
 display: block;
-height: 1300px;
+height: 750px;
 position: relative;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -313,8 +319,10 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
-  max-width: 400px;
+  max-width: 300px;
+  min-height: 200px;
   margin: 0 auto;
+
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   background: rgba(254, 209, 54, 0.9);
@@ -347,7 +355,7 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
+  max-width: 300px;
   margin: 0 auto;
   background-color: white;
   text-align: center;

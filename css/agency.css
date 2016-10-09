@@ -49,10 +49,10 @@ h6 {
 .img-centered {
   margin: 0 auto;
 }
-.img-mediaresponsive {
+.img-media {
   display: block;
   height: 200px;
-  width: 350px;
+  width: 300px;
   position: relative;
 }
 .bg-light-gray {

@@ -38,7 +38,6 @@ a.active {
 }
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -802,4 +801,26 @@ section#carousel {
     height: 100px;
     margin: 0 auto;
     border-radius: 100px;
+}
+
+/* -------- Pull out quotes ----- */
+.pquote {
+    color: #fed136;
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 80px;
+}
+
+.pquote_1 {
+    width: 200px;
+    color: #fed136;
+    font-size: 40px;
+    line-height: 0.9;
+    padding: 13px;
+}
+
+
+.pquote p:first-letter {
+    font-size: 39px;
+    font-weight: bold;
 }

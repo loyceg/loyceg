@@ -54,6 +54,25 @@ h6 {
   width: 300px;
   position: relative;
 }
+div.img-div{
+  height:200px;
+  width:200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.img-div img{
+  -webkit-transform: translate(-50%);
+  margin-left: 100%;
+}
+
+.circle-image{
+  width:156px;
+  height:156px;
+  border-radius:50%;
+  display: block;
+  background-position: center;
+}
 .bg-light-gray {
   background-color: #eeeeee;
 }
@@ -231,13 +250,14 @@ fieldset[disabled] .btn-xl.active {
     font-size: 2em;
   }
 }
+
 header {
   background-image: url('../img_1.jpg');
 display: block;
 height: 750px;
 position: relative;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: ;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -387,7 +407,7 @@ section h3.section-subheading {
   top: 0;
   bottom: 0;
   position: absolute;
-  content: "";
+  content: " ";
   width: 2px;
   background-color: #f1f1f1;
   left: 40px;
@@ -808,7 +828,7 @@ section#carousel {
     color: #fed136;
     text-align: left;
     margin-bottom: 30px;
-    font-size: 80px;
+    font-size: 100px;
 }
 
 .pquote_1 {
